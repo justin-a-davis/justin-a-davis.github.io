@@ -1,9 +1,85 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin A Davis</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
 <body>
-  <h1>Justin Davis</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <div class="bg-image"></div>
+    <header class="container">
+        <div class="logo"><a href="#">Justin Davis</a></div>
+        <nav>
+            <ul class="nav-list container">
+                <li class="nav-item"><a href="#work">Projects</a></li>
+                <li class="nav-item"><a href="#skills">Skills</a></li>
+                <li class="nav-item"><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>   
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img class="hero-image" src="david.png" alt="marble david bust">
+            <h1 class="hero-title">I am a Front End Web Developer</h1>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h1 class="skills-title">My Skills</h1>
+
+        <div class="badge html-badge" id="html-badge">
+            <svg viewBox="0 0 452 520">
+              <title>HTML5 Logo Badge</title>
+              <path fill='RGB(227,79,38)' d='M 41,460 L 0,0 451,0 410,460 225,512'/>
+              <path fill='RGB(239,101,42)' d='M 226,472 L 375,431 410,37 226,37'/>
+              <path fill='RGB(236,237,238)' d='M 226,208 L 151,208 146,150 226,150 226,94 84,94 99,265 226,265 z M 226,355 L162,338 158,293 102,293 109,382 226,414 z'/>
+              <path fill='RGB(255,255,255)' d='M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L226,150 362,150 367,94 z'/>
+            </svg>
+          </div>
+
+          <div class="badge js-badge" id="js-badge">
+            <svg viewBox="0 0 452 520">
+              <title>Javascript Logo Badge</title>
+              <path fill='RGB(229,162,40)' d='M 0,0 L 451,0 410,460 225,512 41,460'/>
+              <path fill='RGB(241,191,38)' d='M 226,472 L375,431 410,37 226,37'/>
+              <path fill='RGB(236,237,238)' d='M 226,94 L 113,94 102,265 226,265 226,208 160,208 165,150 226,150 z M 226,355 L 162,338 158,293 102,293 109,382 226,414 z'/>
+              <path fill='RGB(255,255,255)' d='M 226,265 L 295,265 288,338 226,355 226,414 341,382 357,208 226,208 z M 226,94 L 339,94 357,180 301,180 293,150 226,150 z'/>
+            </svg>
+          </div>
+
+          <div class="badge css-badge" id="css-badge">
+            <svg viewBox="0 0 452 520">
+              <title>CSS3 Logo Badge</title>
+              <path fill='RGB(12,115,184)' d='M 41,460 L 0,0 451,0 410,460 225,512'/>
+              <path fill='RGB(48,169,220)' d='M 226,472 L 375,431 410,37 226,37'/>
+              <path fill='RGB(236,237,238)' d='M 226,208 L 94,208 99,265 226,265 z M 226,94 L 84,94 89,150 226,150 z M 226,355 L 102,322 109,382 226,414 z'/>
+              <path fill='RGB(255,255,255)' d='M 226,265 L 295,265 288,338 226,355 226,414 341,382 367,94 226,94 226,150 306,150 300,208 226,208 z'/>
+            </svg>
+          </div>
+
+          <p id="description" class="skills-description">Hover over or press the badges</p>
+    </section>
+
+    <section class="work" id="work">
+      <h1 class="work-title">My Work</h1>
+      <div class="example-1">Coming soon</div>
+      <div class="example-2">Coming soon</div>
+      <div class="example-3">Coming soon</div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="contact-title">Contact Me!</h1>
+      <p class="contact-email">justin.a.davis42@gmail.com</p>
+      <a href="https://github.com/justin-a-davis"><img src="GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="github"></a>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2022 Justin Davis</p>
+        <a href="https://www.freepik.com/vectors/background">Background vector created by - www.freepik.com</a>
+    </footer>
 </body>
- 
 </html>
